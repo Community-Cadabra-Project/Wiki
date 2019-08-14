@@ -33,4 +33,6 @@
 
 ***
 
+[Описание стиля](../style_description.md)
+
 [README](../../README.md)
