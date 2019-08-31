@@ -26,7 +26,7 @@
 
 > **ВНИМАНИЕ!** При указании длины/радиуса четного значения (4, 6, 8) вы получите фигуру длины/радиуса (3, 5, 7). Учитывайте это при разметке пространства.
 >
-> При указании  длины/радиуса меньше двух заклинание может либо не сработать или сработать некорректно, будьте внимательны.
+> При указании длины/радиуса = 2 заклинание не сработает.
 
 ***
 
@@ -74,26 +74,26 @@
 6    ! fraktix du           |  $power/=2;
 7    d modi sw modi         |  (x-, y-, z-);      //смотрите скрин. 1
 8    ! ekvivax !!           |  $power = !length;
-9    cyklix                 |  cyklix
-10     cyklix               |    cyklix
-11       cyklix             |      cyklix
+9    cyklix                 |  for
+10     cyklix               |    for
+11       cyklix             |      for
 12         * materium **    |        *block materium *type;
 13         !unu n modi      |        $power = 1; (x, y+1, z);
-14       reprizix           |      reprizix
+14       reprizix           |      end
 15       e modi             |      (x+1, y, z)
 16       ! ekvivax !!       |      $power = !length;
 17       s modi             |      (x, y-, z)     //смотрите скрин. 2
-18     reprizix             |    reprizix
+18     reprizix             |    end
 19     !unu u modi          |    $power = 1; (x, y, z+1);
 20     ! ekvivax !!         |    $power = !length;
 21     w modi               |    (x-, y, z)       //смотрите скрин. 3
-22   reprizix               |  reprizix
+22   reprizix               |  end
 23 <                        |  //возвращение (смотрите скрин. 4)
 ```
 
 Этапы строительства:
 
-> За длину взято значение 5.
+> Длина равна 5.
 
 ![step_one](images_of_history/CUBE_1.png)
 ![step_two](images_of_history/CUBE_2.png)
@@ -226,7 +226,7 @@
 68  <                                   |  //возвращение (смотрите скрин. 6 )
 ```
 
-> За длину взято значение 3.
+> Радиус равен 3.
 
 ![step_one](images_of_history/BALL_1.png)
 ![step_two](images_of_history/BALL_2.png)
@@ -288,31 +288,30 @@
 3   !unu luft               |  $power = 1; $luft = 1;
 4   ! ekvivax !!            |  $power = !length;
 5   ! minux unu             |  $power--;
-6   !!! ekvivax !           |  idk = $power;
-7   ! fraktix du            |  $power /= 2;
-8   sw modi                 |  (x-, y-, z);    //смотрите скрин. 1
-9   ! ekvivax !!            |  $power = !length;
-10  cyklix                  |  for
-12    cyklix                |    for
-13      cyklix              |      for
-14        \* materium \*\*  |        *block materium *type;
-15        !unu n modi       |        $power = 1; (x, y+1, z);
-16      reprizix            |      end
-17      e modi              |      (x+1, y, z);
-18      ! ekvivax !!        |      $power = !length;
-19      s modi              |      (x, y-, z);    //смотрите скрин. 2
-20    reprizix              |    end
-21    w modi                |    (x-, y, z);
-22    !unu u modi ne modi   |    (x+1, y+1, z+1);
-23    !! minux du           |    !length -= 2;
-24    ! ekvivax !!          |    $power = !length;    ////смотрите скрин. 3
-25  reprizix                |  end
-26  <                       |  //возвращение (смотрите скрин. 4)
+6   ! fraktix du            |  $power /= 2;
+7   sw modi                 |  (x-, y-, z);    //смотрите скрин. 1
+8   ! ekvivax !!            |  $power = !length;
+9   cyklix                  |  for
+10    cyklix                |    for
+11      cyklix              |      for
+12        \* materium \*\*  |        *block materium *type;
+13        !unu n modi       |        $power = 1; (x, y+1, z);
+14      reprizix            |      end
+15      e modi              |      (x+1, y, z);
+16      ! ekvivax !!        |      $power = !length;
+17      s modi              |      (x, y-, z);    //смотрите скрин. 2
+18    reprizix              |    end
+19    w modi                |    (x-, y, z);
+20    !unu u modi ne modi   |    (x+1, y+1, z+1);
+21    !! minux du           |    !length -= 2;
+22    ! ekvivax !!          |    $power = !length;    ////смотрите скрин. 3
+23  reprizix                |  end
+24  <                       |  //возвращение (смотрите скрин. 4)
 ```
 
 Этапы строительства:
 
-> За длину взято значение 5.
+> Длина равна 5.
 
 ![step_one](images_of_history/PYRAMID_1.png)
 ![step_two](images_of_history/PYRAMID_2.png)
@@ -339,7 +338,7 @@
 
 Автор заклинания : **Reverin**
 
-Описал : **Anatoliy57**
+Описание : **Anatoliy57**
 
 ***
 
@@ -391,8 +390,8 @@ minux unu . . reprizix <
 
 PYRAMID:
 !! ekvivax ! !unu luft ! ekvivax
-!! ! minux unu !!! ekvivax ! !
-fraktix du sw modi ! ekvivax !!
+!! ! minux unu ! fraktix du
+sw modi ! ekvivax !!
 cyklix cyklix cyklix \*
 materium \*\* !unu n modi
 reprizix e modi ! ekvivax !! s
