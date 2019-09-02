@@ -293,7 +293,7 @@ ay_a_add_f:
 #Cell creation
 ##################
 !x14 formatos *x13
-*x14.
+*x14#
 !x13 ekvivax !x40
 !x13 minux !x14
 *x14 multiplux !x13
@@ -320,7 +320,7 @@ ay_a_add_l:
 #Cell creation
 ##################
 !x14 formatos *x13
-*x14.
+*x14#
 !x13 ekvivax !x40
 !x13 minux !x14
 *x14 multiplux !x13
@@ -346,7 +346,7 @@ ay_a_uniq_add_f:
 #Cell creation
 ##################
 !x14 formatos *x13
-*x14.
+*x14#
 !x13 ekvivax !x40
 *x14 multiplux !x13
 *x13 plux *x14
@@ -373,7 +373,7 @@ ay_a_uniq_add_l:
 #Cell creation
 ##################
 !x14 formatos *x13
-*x14.
+*x14#
 !x13 ekvivax !x40
 !x13 minux !x14
 *x14 multiplux !x13
@@ -402,7 +402,7 @@ ay_a_remove_f:
 ##################
 kvin! intervax
 !x13 prevalix nulo
-*x40 ekvivax *x12
+*x40 fraktix nulo
 <
 ##################
 
@@ -445,16 +445,16 @@ ay_a_delete:
 !x14 formatos *x14
 !x14 minux !x13
 !x13 minux !x40
+*x14 fraktix !x13
 
 #Remove last element
 ##################
 kvin! intervax
-!x13 prevalix nulo
-*x40 ekvivax *x12
+!x14 prevalix nulo
+*x40 ekvivax *x14
 <
 ##################
 
-*x14 fraktix !x13
 *x15 segmentix !x14
 *x14 plux *x15
 ##################
@@ -467,7 +467,7 @@ kvin! intervax
 
 ```cadabra
 ay_a_clear:
-*x40 ekvivax *x12
+*x40 fraktix nulo
 <
 ```
 
@@ -479,7 +479,7 @@ ay_a_clear:
 
 ```cadabra
 ay_a_init_l:
-*x13.
+*x13#
 !!! multiplux !x40
 *x13 multiplux !!!
 *x40 ekvivax *x13
@@ -526,7 +526,7 @@ ay_a_get:
 !!! multiplux !x40
 *x13 fraktix !!!
 *x13 segmentix !x40
-*x13 minux .
+*x13 minux #
 !!! fraktix !x40
 !!!! ekvivax *x13
 <
@@ -546,7 +546,7 @@ ay_a_poll_l:
 *x13 ekvivax *x40
 *x40 fraktix !x13
 *x13 segmentix !x40
-*x13 minux .
+*x13 minux #
 !!!! ekvivax *x13
 <
 ```
@@ -569,14 +569,14 @@ ay_a_poll_f:
 ##################
 kvin! intervax
 !x13 prevalix nulo
-*x40 ekvivax *x12
+*x40 fraktix nulo
 <
 ##################
 
 *x13 ekvivax *x40
 *x40 segmentix !x13
 *x13 fraktix !x40
-*x13 minux .
+*x13 minux #
 !!!! ekvivax *x13
 <
 ```
@@ -597,7 +597,7 @@ ay_a_set:
 #Cell creation
 ##################
 !x14 formatos *x13
-*x14.
+*x14#
 !x13 ekvivax !x40
 !x13 minux !x14
 *x14 multiplux !x13
@@ -617,15 +617,15 @@ ay_a_set:
 *x14 fraktix !x13
 *x15 segmentix !x14
 *x14 plux *x13
-*x14 plux *x15
 ##################
 
 #Remove last element
 ##################
 kvin! intervax
-!x13 prevalix nulo
-*x40 ekvivax *x13
+!x14 prevalix nulo
+*x40 ekvivax *x14
 <
+*x14 plux *x15
 ##################
 
 *x40 ekvivax *x14
@@ -645,7 +645,7 @@ kvin! intervax
 ```cadabra
 kvin! intervax
 !x13 prevalix nulo
-*x40 ekvivax *x12
+*x40 fraktix nulo
 <
 ```
 
@@ -659,7 +659,7 @@ kvin! intervax
 
 ```cadabra
 !x14 formatos *x13
-*x14.
+*x14#
 !x13 ekvivax !x40
 !x13 minux !x14
 *x14 multiplux !x13
