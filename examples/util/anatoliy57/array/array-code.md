@@ -1,6 +1,6 @@
-# Приложение-1 #
+# Array Код #
 
-[Anatoliy57_array](anatoliy57_array#md)
+[Описание Array](array.md)
 
 ## Исходник ##
 

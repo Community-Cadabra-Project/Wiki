@@ -2,13 +2,20 @@
 
 Версия: **0.1**
 
+Соблюденные соглашения:
+
+* [CCA-1](../../../documents/CCA-1.md)
+* [CCA-2](../../../documents/CCA-2.md)
+* [CCA-3](../../../documents/CCA-3.md)
+* [CCA-4](../../../documents/CCA-4.md)
+
 Рабочий код можно посмотреть [здесь](switchUI.md)
 
 Заклинание актуально на момент ***06.09.19***
 
 ## Глобальные переменные ##
 
-* !x30 (далее id) - используется для подсчета кол-ва использования метода SW_ID для создания уникальных ссылок.
+* !x31 (далее id) - используется для подсчета кол-ва использования метода SW_ID для создания уникальных ссылок.
 
 ***
 
@@ -139,7 +146,7 @@ subtest: ... <
 
 * [SW](#SW)
   
-  Уровень: **safe**
+  Класс: **safe - easy | easy**
 
   Параметры:
 
@@ -153,7 +160,7 @@ subtest: ... <
 
 * [SW_P](#SW_P)
   
-  Уровень: **safe**
+  Класс: **safe - easy | easy**
 
   Параметры:
 
@@ -167,7 +174,7 @@ subtest: ... <
 
 * [SW_ID](#SW_ID)
 
-  Уровень: **safe**
+  Класс: **safe - easy | easy**
 
   Параметры:
 
@@ -181,7 +188,7 @@ subtest: ... <
 
 * [SW_GET_ID](#SW_ID_GET)
 
-  Уровень: **easy**
+  Класс: **easy**
 
   Выход:
 
@@ -191,7 +198,7 @@ subtest: ... <
 
 * [SW_SET_ID](#swsetid)
 
-  Уровень: **easy**
+  Класс: **safe - easy**
 
   Параметры:
 
@@ -248,9 +255,9 @@ ay_sw_id:
 
   ***#> plux ****
   *** plux _id_
-  *** plux !x30
+  *** plux !x31
   *** minux #
-  !x30 plux unu
+  !x31 plux unu
 
 <
 ```
@@ -264,7 +271,7 @@ ay_sw_id:
 ```cadabra
 ay_sw_get_id:
 
-  ! ekvivax !x30
+  ! ekvivax !x31
 
 <
 ```
@@ -278,7 +285,7 @@ ay_sw_get_id:
 ```cadabra
 ay_sw_set_id:
 
-  !x30 ekvivax !
+  !x31 ekvivax !
 
 <
 ```
@@ -288,7 +295,7 @@ ay_sw_set_id:
 ```cadabra
 ay_sw_sh_id:
 
-  textos !x30
+  textos !x31
 
 <
 ```

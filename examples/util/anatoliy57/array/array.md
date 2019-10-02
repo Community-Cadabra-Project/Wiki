@@ -2,9 +2,16 @@
 
 Версия: **0.1**
 
+Соблюденные соглашения:z
+
+* [CCA-1](../../../documents/CCA-1.md)
+* [CCA-2](../../../documents/CCA-2.md)
+* [CCA-3](../../../documents/CCA-3.md)
+* [CCA-4](../../../documents/CCA-4.md)
+
 >Выражаю особую благодарность **Reverin'у** за идею создания некоторых методов и решение реализации методов uniq_add_(f\\l).
 
-Рабочий код можно посмотреть [здесь](приложение-1.md)
+Рабочий код можно посмотреть [здесь](array-code.md)
 
 Заклинание актуально на момент ***31.08.19***
 
@@ -84,12 +91,12 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 ## Характеристика ##
 
-Префикс меток: **ay_a_** (Anatoliy_array)
+Префикс меток: **ay_a_** (расшифровывается как Anatoliy_array_)
 
 | Типы переменных       | Диапазон            |
 |-----------------------|---------------------|
-|Переменные состояния   | !x40, *x40          |
-|Переменные для расчетов| !x(13-14), *x(13-15)|
+|State-range            | !x40, *x40          |
+|Module-range           | !x(13-14), *x(13-15)|
 |Параметры              | !x(3-4)             |
 |Вывод данных           | !x4                 |
 
@@ -97,11 +104,12 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 Дополнения:
 
-* Массив начинается с индекса под номером 1.
-* В случае обращения к пустой ячейки или выход за пределы массива получим случайное число.
+* Массив начинается с индекса 1.
+* Пустые ячейки массива хранят нули.
+* Если выйти за предела массива ожидается случайное число.
 * Массив работает достаточно медленно, поэтому рекомендуется использовать его только в качестве хранения важных параметров.
 * Если использовать uniq_add после заполнения обычными add, все числа, равные добавляемому, удалятся.
-* Если выход числа за пределы массива будет произведен, массив можно будет починить только вручную.
+* Если при использовании set выйти за пределы массива, то произойдет повреждение данных.
 
 ***
 
@@ -111,7 +119,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [ADD_F](#add_f)
 
-  Уровень: **safe**
+  Класс: **safe - easy**
   
   Параметры:
 
@@ -121,7 +129,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [ADD_L](#add_l)
 
-  Уровень: **safe**
+  Класс: **safe - easy**
   
   Параметры:
 
@@ -131,7 +139,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [UNIQ_ADD_F](#uniq_add_f)
 
-  Уровень: **safe**
+  Класс: **safe - easy**
   
   Параметры:
 
@@ -141,7 +149,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [UNIQ_ADD_L](#uniq_add_l)
 
-  Уровень: **safe**
+  Класс: **safe - easy**
   
   Параметры:
 
@@ -171,7 +179,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
   >**Скачок = 5**
 
-  Уровень: **safe**
+  Класс: **safe - easy**
 
   Параметры:
 
@@ -189,7 +197,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [INIT_C](#init_c)
 
-  Уровень: **safe**
+  Класс: **safe - easy**
 
   Параметры:
 
@@ -199,7 +207,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [INIT_L](#init_l)
 
-  Уровень: **safe**
+  Класс: **safe - easy**
 
   Параметры:
 
@@ -209,7 +217,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [SIZE](#size)
 
-  Уровень: **easy**
+  Класс: **easy**
 
   Выход:
 
@@ -219,7 +227,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [GET](#get)
 
-  Уровень: **safe** | **easy**
+  Класс: **safe - easy** | **easy**
 
   Параметры:
 
@@ -235,7 +243,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
   >**Скачок = 5**
 
-  Уровень: **easy**
+  Класс: **easy**
 
   Выход:
 
@@ -249,7 +257,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
 * [POLL_L](#poll_f)
 
-  Уровень: **easy**
+  Класс: **easy**
 
   Выход:
 
@@ -261,7 +269,7 @@ am !!!dudek >ay_a_init_c !dek !!!!dek cyklix >ay_a_add_l !!!! minux unu reprizix
 
   >**Скачок = 5**
 
-  Уровень: **safe**
+  Класс: **safe - medium**
 
   Параметры:
 
@@ -694,3 +702,7 @@ kvin! intervax
 *x14 plux *x13
 *x14 plux *x15
 ```
+
+## Приведенные приложения ##
+
+* [Код](array-code.md)
