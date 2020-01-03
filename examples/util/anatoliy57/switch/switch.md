@@ -2,6 +2,8 @@
 
 Версия: **0.1**
 
+Название книги: **Anatoliy57_switch**
+
 Соблюденные соглашения:
 
 * [CCA-1](../../../documents/CCA-1.md)
@@ -9,7 +11,7 @@
 * [CCA-3](../../../documents/CCA-3.md)
 * [CCA-4](../../../documents/CCA-4.md)
 
-Рабочий код можно посмотреть [здесь](switchUI.md)
+Рабочий код можно посмотреть [здесь](additional/switchUI-code.md)
 
 Заклинание актуально на момент ***06.09.19***
 
@@ -26,13 +28,13 @@
 ```cadabra
 am ****1 >ay_sw *** textos игнорируется x
 
->1 textos 1 x
+1: textos 1 x
 
->2 textos 2 x
+2: textos 2 x
 
->3 textos 3 x
+3: textos 3 x
 
->4 textos 4 x
+4: textos 4 x
 ```
 
 >Вывод будет: 1.
@@ -42,19 +44,19 @@ am ****1 >ay_sw *** textos игнорируется x
 ```cadabra
 am !tri cyklix >ay_sw_p *** !!! plux du reprizix x
 
->unu textos 1 <
+unu: textos 1 <
 
->du textos 2 <
+du: textos 2 <
 
->tri textos 3 <
+tri: textos 3 <
 
->kvar textos 4 <
+kvar: textos 4 <
 
->kvin textos 5 <
+kvin: textos 5 <
 
->ses textos 6 <
+ses: textos 6 <
 
->sep textos 7 <
+sep: textos 7 <
 ```
 
 >Вывод будет: 1, 3, 5.
@@ -299,3 +301,7 @@ ay_sw_sh_id:
 
 <
 ```
+
+***
+
+>[Каталог](../../../Список%20заклинаний.md)
