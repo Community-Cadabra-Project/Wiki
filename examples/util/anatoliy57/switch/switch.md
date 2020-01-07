@@ -1,5 +1,9 @@
 # Switch #
 
+>НЕ РЕКОМЕНДУЕТСЯ К ИСПОЛЬЗОВАНИЮ
+>
+>ПОДРОБНОСТИ ЧИТАТЬ [ЗДЕСЬ](http://cadabra.magicbb.ru/viewtopic.php?id=8&p=2#p710)
+
 Версия: **0.1**
 
 Название книги: **Anatoliy57_switch**
