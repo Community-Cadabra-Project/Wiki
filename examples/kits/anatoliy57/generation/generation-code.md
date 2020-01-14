@@ -1,5 +1,7 @@
 # Generation #
 
+[Описание Generation](generation.md)
+
 ## Исходник ##
 
 ```cadabra
@@ -74,6 +76,14 @@ intervax ignorix *****%20U ***** plux %20modi%20 **www.online-decoder.com/ru?inp
 
 ** plux * ** plux #< ** minux # textos **
 ```
+
+***
+
+## Генерируемый код ##
+
+### POZI ###
+
+Параметры !p(1-3) и *p(1-3) совпадают с выходящими данными блока [ay_loc_get модуля anatoliy57_location](../../../moving/anatoliy57/location/location.md#GET), за исключением того, что направления сменяются со знаков на стороны света.
 
 ```cadabra
 name:
