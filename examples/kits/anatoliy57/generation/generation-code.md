@@ -6,6 +6,7 @@
 
 ```cadabra
 ay_g_pozi:
+    !unu luft
     ** fraktix nulo
     !kvar intervax
     * identix **
@@ -68,7 +69,7 @@ x
 ```
 
 ```cadabra
-ay_g_pozi: ** fraktix nulo !kvar intervax * identix ** !kvin intervax ignorix textos Параметр_не_задан textos в_сокращение_первого_порядка x >ay_loc_get textos Необходим_модуль textos anatoliy57_location x ay_loc_get_x: !kvin 
+ay_g_pozi: !unu luft ** fraktix nulo !kvar intervax * identix ** !kvin intervax ignorix textos Параметр_не_задан textos в_сокращение_первого_порядка x >ay_loc_get textos Необходим_модуль textos anatoliy57_location x ay_loc_get_x: !kvin 
 
 intervax *** identix + ***%20W !unu intervax ignorix ***%20E *** plux %20modi%20 !kvin intervax **** identix + ****%20S !unu intervax ignorix ****%20N **** plux %20modi%20 !kvin intervax ***** identix + *****%20D !unu 
 

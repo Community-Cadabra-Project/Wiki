@@ -150,6 +150,7 @@ See more ["ay_loc_get"](../../../moving/anatoliy57/location/location.md#GET)
 
 ```cadabra
 ay_g_pozi:
+    !unu luft
     ** fraktix nulo
     !kvar intervax
     * identix **
