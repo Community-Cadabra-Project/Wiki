@@ -8,6 +8,7 @@
 
 * [CCA-1](../../../documents/CCA-1.md)
 * [CCA-2](../../../documents/CCA-2.md)
+* [CCA-5](../../../documents/CCA-5.md)
 
 Рабочий код можно посмотреть [здесь](generation-code.md)
 

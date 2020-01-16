@@ -10,6 +10,7 @@
 * [CCA-2](../../../documents/CCA-2.md)
 * [CCA-3](../../../documents/CCA-3.md)
 * [CCA-4](../../../documents/CCA-4.md)
+* [CCA-5](../../../documents/CCA-5.md)
 
 Рабочий код можно посмотреть [здесь](metro-code.md)
 
