@@ -166,9 +166,9 @@ ay_math_sqrt:
         !x16 ekvivax !x14
         !x16 fraktix !x13
         !x15 ekvivax !x13
-        !x15 minux !x16
+        !x15 plux !x16
         !x15 fraktix du
-        !x13 indentix !x15
+        !x13 identix !x15
             !x13 ekvivax !x15
     reprizix
     !!!! ekvivax !x13
@@ -195,9 +195,9 @@ ay_math_sqrt+:
         !x30 ekvivax !x28
         !x30 fraktix !x27
         !x29 ekvivax !x27
-        !x29 minux !x30
+        !x29 plux !x30
         !x29 fraktix du
-        !x27 indentix !x29
+        !x27 identix !x29
             !x27 ekvivax !x29
     reprizix
     !x14 ekvivax !x27
