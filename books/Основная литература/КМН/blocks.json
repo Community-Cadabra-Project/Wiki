@@ -1,0 +1,3844 @@
+{
+    "air": {
+        "id": 0,
+        "ru": "Воздух"
+    },
+    "stone": {
+        "id": 1,
+        "data": 0,
+        "cadabra": {
+            "name": "massivum",
+            "energy": 10
+        },
+        "ru": "Камень"
+    },
+    "granite": {
+        "id": 1,
+        "data": 1,
+        "cadabra": {
+            "name": "granitum",
+            "energy": 10
+        },
+        "ru": "Гранит"
+    },
+    "polished_granite": {
+        "id": 1,
+        "data": 2,
+        "ru": "Полированный гранит"
+    },
+    "diorite": {
+        "id": 1,
+        "data": 3,
+        "cadabra": {
+            "name": "dioritum",
+            "energy": 10
+        },
+        "ru": "Диорит"
+    },
+    "polished_diorite": {
+        "id": 1,
+        "data": 4,
+        "ru": "Полированный диорит"
+    },
+    "andesite": {
+        "id": 1,
+        "data": 5,
+        "cadabra": {
+            "name": "андезит",
+            "energy": 10
+        },
+        "ru": "Андезит"
+    },
+    "polished_andesite": {
+        "id": 1,
+        "data": 6,
+        "ru": "Полированный андезит"
+    },
+    "grass": {
+        "id": 2,
+        "cadabra": {
+            "name": "pastum",
+            "energy": 200
+        },
+        "ru": "Дёрн"
+    },
+    "dirt": {
+        "id": 3,
+        "cadabra": {
+            "name": "terrum",
+            "energy": 10
+        },
+        "ru": "Земля"
+    },
+    "coarse_dirt": {
+        "id": 3,
+        "data": 1,
+        "ru": "Каменистая земля"
+    },
+    "podzol": {
+        "id": 3,
+        "data": 2,
+        "cadabra": {
+            "name": "podzolum",
+            "energy": 200
+        },
+        "ru": "Подзол"
+    },
+    "cobblestone": {
+        "id": 4,
+        "cadabra": {
+            "name": "cobblum",
+            "energy": 5
+        },
+        "ru": "Булыжник"
+    },
+    "oak_planks": {
+        "id": 5,
+        "data": 0,
+        "cadabra": {
+            "name": "plancum",
+            "type": "dubum",
+            "energy": 15
+        },
+        "ru": "Дубовые доски"
+    },
+    "spruce_planks": {
+        "id": 5,
+        "data": 1,
+        "cadabra": {
+            "name": "plancum",
+            "type": "pinium",
+            "energy": 15
+        },
+        "ru": "Еловые доски"
+    },
+    "birch_planks": {
+        "id": 5,
+        "data": 2,
+        "cadabra": {
+            "name": "plancum",
+            "type": "berezum",
+            "energy": 15
+        },
+        "ru": "Берёзовые доски"
+    },
+    "jungle_planks": {
+        "id": 5,
+        "data": 3,
+        "cadabra": {
+            "name": "plancum",
+            "type": "junglum",
+            "energy": 15
+        },
+        "ru": "Джунглевые доски"
+    },
+    "acacia_planks": {
+        "id": 5,
+        "data": 4,
+        "cadabra": {
+            "name": "plancum",
+            "type": "acacium",
+            "energy": 15
+        },
+        "ru": "Акациевые доски"
+    },
+    "dark_oak_planks": {
+        "id": 5,
+        "data": 5,
+        "cadabra": {
+            "name": "plancum",
+            "type": "darkdubum",
+            "energy": 15
+        },
+        "ru": "Доски из тёмного дуба"
+    },
+    "oak_sapling": {
+        "id": 6,
+        "data": 0,
+        "ru": "Дубовый саженец"
+    },
+    "spruce_sapling": {
+        "id": 6,
+        "data": 1,
+        "ru": "Еловый саженец"
+    },
+    "birch_sapling": {
+        "id": 6,
+        "data": 2,
+        "ru": "Берёзовый саженец"
+    },
+    "jungle_sapling": {
+        "id": 6,
+        "data": 3,
+        "ru": "Саженец тропического дерева"
+    },
+    "acacia_sapling": {
+        "id": 6,
+        "data": 4,
+        "ru": "Акациевый саженец"
+    },
+    "dark_oak_sapling": {
+        "id": 6,
+        "data": 5,
+        "ru": "Саженец тёмного дуба"
+    },
+    "bedrock": {
+        "id": 7,
+        "ru": "Коренная порода"
+    },
+    "flowing_water": {
+        "id": 8,
+        "ru": "Вода"
+    },
+    "water": {
+        "id": 9,
+        "ru": "Вода (неподвижная)"
+    },
+    "flowing_lava": {
+        "id": 10,
+        "ru": "Лава"
+    },
+    "lava": {
+        "id": 11,
+        "ru": "Лава (неподвижная)"
+    },
+    "sand": {
+        "id": 12,
+        "data": 0,
+        "cadabra": {
+            "name": "pesandum",
+            "energy": 15
+        },
+        "ru": "Песок"
+    },
+    "red_sand": {
+        "id": 12,
+        "data": 1,
+        "cadabra": {
+            "name": "pesandum",
+            "type": "rubinum",
+            "energy": 15
+        },
+        "ru": "Красный песок"
+    },
+    "gravel": {
+        "id": 13,
+        "cadabra": {
+            "name": "gravum",
+            "energy": 15
+        },
+        "ru": "Гравий"
+    },
+    "gold_ore": {
+        "id": 14,
+        "ru": "Золотая руда"
+    },
+    "iron_ore": {
+        "id": 15,
+        "ru": "Железная руда"
+    },
+    "coal_ore": {
+        "id": 16,
+        "ru": "Угольная руда"
+    },
+    "oak_log": {
+        "id": 17,
+        "data": [
+            0,
+            4,
+            8,
+            12
+        ],
+        "cadabra": {
+            "name": "balcum",
+            "type": "dubum",
+            "power": [
+                1,
+                2,
+                3
+            ],
+            "energy": 30
+        },
+        "ru": "Дубовая древесина"
+    },
+    "spruce_log": {
+        "id": 17,
+        "data": [
+            1,
+            5,
+            9,
+            13
+        ],
+        "cadabra": {
+            "name": "balcum",
+            "type": "pinium",
+            "power": [
+                1,
+                2,
+                3
+            ],
+            "energy": 30
+        },
+        "ru": "Еловая древесина"
+    },
+    "birch_log": {
+        "id": 17,
+        "data": [
+            2,
+            6,
+            10,
+            14
+        ],
+        "cadabra": {
+            "name": "balcum",
+            "type": "berezum",
+            "power": [
+                1,
+                2,
+                3
+            ],
+            "energy": 30
+        },
+        "ru": "Берёзовая древесина"
+    },
+    "jungle_log": {
+        "id": 17,
+        "data": [
+            3,
+            7,
+            11,
+            15
+        ],
+        "cadabra": {
+            "name": "balcum",
+            "type": "junglum",
+            "power": [
+                1,
+                2,
+                3
+            ],
+            "energy": 30
+        },
+        "ru": "Джунглевая древесина"
+    },
+    "oak_leaves": {
+        "id": 18,
+        "data": [
+            0,
+            4,
+            8,
+            12
+        ],
+        "ru": "Дубовая листва"
+    },
+    "spruce_leaves": {
+        "id": 18,
+        "data": [
+            1,
+            5,
+            9,
+            13
+        ],
+        "ru": "Еловая листва"
+    },
+    "birch_leaves": {
+        "id": 18,
+        "data": [
+            2,
+            6,
+            10,
+            14
+        ],
+        "ru": "Берёзовая листва"
+    },
+    "jungle_leaves": {
+        "id": 18,
+        "data": [
+            3,
+            7,
+            11,
+            15
+        ],
+        "ru": "Джунглевая листва"
+    },
+    "sponge": {
+        "id": 19,
+        "data": 0,
+        "ru": "Губка"
+    },
+    "wet_spong": {
+        "id": 19,
+        "data": 1,
+        "ru": "Мокрая губка"
+    },
+    "glass": {
+        "id": 20,
+        "ru": "Стекло"
+    },
+    "lapis_ore": {
+        "id": 21,
+        "ru": "Лазуритовая руда"
+    },
+    "lapis_block": {
+        "id": 22,
+        "ru": "Лазуритовый блок"
+    },
+    "dispenser": {
+        "id": 23,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Раздатчик"
+    },
+    "sandstone": {
+        "id": 24,
+        "ru": "Песчаник"
+    },
+    "noteblock": {
+        "id": 25,
+        "ru": "Музыкальный блок"
+    },
+    "bed": {
+        "id": 26,
+        "ru": "Кровать"
+    },
+    "golden_rail": {
+        "id": 27,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Электрические рельсы"
+    },
+    "detector_rail": {
+        "id": 28,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Нажимные рельсы"
+    },
+    "sticky_piston": {
+        "id": 29,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Липкий поршень"
+    },
+    "cobweb": {
+        "id": 30,
+        "cadabra": {
+            "name": "tarantulum",
+            "energy": 40
+        },
+        "ru": "Паутина"
+    },
+    "tallgrass": {
+        "id": 31,
+        "ru": "Высокая трава"
+    },
+    "deadbush": {
+        "id": 32,
+        "ru": "Сухой куст"
+    },
+    "piston": {
+        "id": 33,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Поршень"
+    },
+    "piston_head": {
+        "id": 34,
+        "ru": "Головка поршня"
+    },
+    "white_wool": {
+        "id": 35,
+        "data": 0,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "gipsum",
+            "energy": 40
+        },
+        "ru": "Белая шерсть"
+    },
+    "orange_wool": {
+        "id": 35,
+        "data": 1,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "carnelium",
+            "energy": 40
+        },
+        "ru": "Оранжевая шерсть"
+    },
+    "magenta_wool": {
+        "id": 35,
+        "data": 2,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "rodonitum",
+            "energy": 40
+        },
+        "ru": "Сиреневая шерсть"
+    },
+    "light_blue_wool": {
+        "id": 35,
+        "data": 3,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "akvamarinum",
+            "energy": 40
+        },
+        "ru": "Светло-синяя шерсть"
+    },
+    "yellow_wool": {
+        "id": 35,
+        "data": 4,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "citrinum",
+            "energy": 40
+        },
+        "ru": "Жёлтая шерсть"
+    },
+    "lime_wool": {
+        "id": 35,
+        "data": 5,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "peridotum",
+            "energy": 40
+        },
+        "ru": "Лаймовая шерсть"
+    },
+    "pink_wool": {
+        "id": 35,
+        "data": 6,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "rubellitum",
+            "energy": 40
+        },
+        "ru": "Розовая шерсть"
+    },
+    "gray_wool": {
+        "id": 35,
+        "data": 7,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "gematitum",
+            "energy": 40
+        },
+        "ru": "Серая шерсть"
+    },
+    "light_gray_wool": {
+        "id": 35,
+        "data": 8,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "pyritum",
+            "energy": 40
+        },
+        "ru": "Светло-серая шерсть"
+    },
+    "cyan_wool": {
+        "id": 35,
+        "data": 9,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "amazonitum",
+            "energy": 40
+        },
+        "ru": "Бирюзовая шерсть"
+    },
+    "purple_wool": {
+        "id": 35,
+        "data": 10,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "ametistum",
+            "energy": 40
+        },
+        "ru": "Фиолетовая шерсть"
+    },
+    "blue_wool": {
+        "id": 35,
+        "data": 11,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "sapfirum",
+            "energy": 40
+        },
+        "ru": "Синяя шерсть"
+    },
+    "brown_wool": {
+        "id": 35,
+        "data": 12,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "giacintum",
+            "energy": 40
+        },
+        "ru": "Коричневая шерсть"
+    },
+    "green_wool": {
+        "id": 35,
+        "data": 13,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "malahitum",
+            "energy": 40
+        },
+        "ru": "Зелёная шерсть"
+    },
+    "red_wool": {
+        "id": 35,
+        "data": 14,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "rubinum",
+            "energy": 40
+        },
+        "ru": "Красная шерсть"
+    },
+    "black_wool": {
+        "id": 35,
+        "data": 15,
+        "cadabra": {
+            "name": "mutonum",
+            "type": "grafitum",
+            "energy": 40
+        },
+        "ru": "Чёрная шерсть"
+    },
+    "piston_extension": {
+        "id": 36,
+        "ru": "Расширение поршня"
+    },
+    "dandelion": {
+        "id": 37,
+        "ru": "Одуванчик"
+    },
+    "poppy": {
+        "id": 38,
+        "data": 0,
+        "ru": "Мак"
+    },
+    "blue_orchid": {
+        "id": 38,
+        "data": 1,
+        "ru": "Синяя орхидея"
+    },
+    "allium": {
+        "id": 38,
+        "data": 2,
+        "ru": "Лук"
+    },
+    "azure_bluet": {
+        "id": 38,
+        "data": 3,
+        "ru": "Хаустония серая"
+    },
+    "red_tulip": {
+        "id": 38,
+        "data": 4,
+        "ru": "Красный тюльпан"
+    },
+    "orange_tulip": {
+        "id": 38,
+        "data": 5,
+        "ru": "Оранжевый тюльпан"
+    },
+    "white_tulip": {
+        "id": 38,
+        "data": 6,
+        "ru": "Белый тюльпан"
+    },
+    "pink_tulip": {
+        "id": 38,
+        "data": 7,
+        "ru": "Розовый тюльпан"
+    },
+    "oxeye_daisy": {
+        "id": 38,
+        "data": 8,
+        "ru": "Нивяник"
+    },
+    "brown_mushroom": {
+        "id": 39,
+        "ru": "Коричневый гриб"
+    },
+    "red_mushroom": {
+        "id": 40,
+        "ru": "Красный гриб"
+    },
+    "gold_block": {
+        "id": 41,
+        "ru": "Золотой блок"
+    },
+    "iron_block": {
+        "id": 42,
+        "ru": "Железный блок"
+    },
+    "double_stone_slab": {
+        "id": 43,
+        "ru": "Двойная плита"
+    },
+    "stone_slab": {
+        "id": 44,
+        "data": [
+            0,
+            8
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Каменная плита"
+    },
+    "sandstone_slab": {
+        "id": 44,
+        "data": [
+            1,
+            9
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Песчаниковая плита"
+    },
+    "petrified_oak_slab": {
+        "id": 44,
+        "data": [
+            2,
+            10
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Окаменевшая дубовая плита"
+    },
+    "cobblestone_slab": {
+        "id": 44,
+        "data": [
+            3,
+            11
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Булыжниковая плита"
+    },
+    "brick_slab": {
+        "id": 44,
+        "data": [
+            4,
+            12
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Кирпичная плита"
+    },
+    "stone_brick_slab": {
+        "id": 44,
+        "data": [
+            5,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Плита из каменного кирпича"
+    },
+    "quartz_slab": {
+        "id": 44,
+        "data": [
+            6,
+            14
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Кварцевая плита"
+    },
+    "nether_brick_slab": {
+        "id": 44,
+        "data": [
+            7,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Плита из адского кирпича"
+    },
+    "brick_block": {
+        "id": 45,
+        "cadabra": {
+            "name": "construm",
+            "energy": 50
+        },
+        "ru": "Кирпичный блок"
+    },
+    "tnt": {
+        "id": 46,
+        "ru": "ТНТ"
+    },
+    "bookshelf": {
+        "id": 47,
+        "ru": "Книжный шкаф"
+    },
+    "mossy_cobblestone": {
+        "id": 48,
+        "ru": "Замшелый булыжник"
+    },
+    "obsidian": {
+        "id": 49,
+        "cadabra": {
+            "name": "obsidum",
+            "energy": 50
+        },
+        "ru": "Обсидиан"
+    },
+    "torch": {
+        "id": 50,
+        "data": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "ru": "Факел"
+    },
+    "fire": {
+        "id": 51,
+        "cadabra": {
+            "name": "pyrum",
+            "energy": 400
+        },
+        "ru": "Огонь"
+    },
+    "monster_spawner": {
+        "id": 52,
+        "ru": "Спаунер мобов"
+    },
+    "oak_stairs": {
+        "id": 53,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "cadabra": {
+            "name": "elevatum",
+            "type": "dubum",
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "energy": 10
+        },
+        "ru": "Дубовые ступени"
+    },
+    "chest": {
+        "id": 54,
+        "data": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Сундук"
+    },
+    "redstone_wire": {
+        "id": 55,
+        "ru": "Красный провод"
+    },
+    "diamond_ore": {
+        "id": 56,
+        "ru": "Алмазная руда"
+    },
+    "diamond_block": {
+        "id": 57,
+        "ru": "Алмазный блок"
+    },
+    "crafting_table": {
+        "id": 58,
+        "ru": "Верстак"
+    },
+    "wheat": {
+        "id": 59,
+        "ru": "Пшеница"
+    },
+    "farmland": {
+        "id": 60,
+        "ru": "Грядка"
+    },
+    "furnace": {
+        "id": 61,
+        "data": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Печь"
+    },
+    "lit_furnace": {
+        "id": 62,
+        "ru": "Горящая печь"
+    },
+    "standing_sign": {
+        "id": 63,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ]
+        },
+        "ru": "Напольная табличка"
+    },
+    "wooden_door": {
+        "id": 64,
+        "ru": "Деревянная дверь"
+    },
+    "ladder": {
+        "id": 65,
+        "cadabra": {
+            "name": "liftum",
+            "energy": 20
+        },
+        "ru": "Лестница"
+    },
+    "rail": {
+        "id": 66,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Рельсы"
+    },
+    "stone_stairs": {
+        "id": 67,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "energy": 10
+        },
+        "ru": "Каменные ступени"
+    },
+    "wall_sign": {
+        "id": 68,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ]
+        },
+        "ru": "Настенная табличка"
+    },
+    "lever": {
+        "id": 69,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        "ru": "Рычаг"
+    },
+    "stone_pressure_plate": {
+        "id": 70,
+        "ru": "Каменная нажимная пластина"
+    },
+    "iron_door": {
+        "id": 71,
+        "ru": "Железная дверь"
+    },
+    "wooden_pressure_plate": {
+        "id": 72,
+        "ru": "Деревянная нажимная пластина"
+    },
+    "redstone_ore": {
+        "id": 73,
+        "ru": "Красная руда"
+    },
+    "lit_redstone_ore": {
+        "id": 74,
+        "ru": "Светящаяся красная руда"
+    },
+    "unlit_redstone_torch": {
+        "id": 75,
+        "data": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "ru": "Красный факел (выкл.)"
+    },
+    "redstone_torch": {
+        "id": 76,
+        "data": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "ru": "Красный факел (вкл.)"
+    },
+    "stone_button": {
+        "id": 77,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Каменная кнопка"
+    },
+    "snow_layer": {
+        "id": 78,
+        "ru": "Снег"
+    },
+    "ice": {
+        "id": 79,
+        "cadabra": {
+            "name": "colodum",
+            "energy": 60
+        },
+        "ru": "Лёд"
+    },
+    "snow": {
+        "id": 80,
+        "cadabra": {
+            "name": "snogum",
+            "energy": 10
+        },
+        "ru": "Снег (блок)"
+    },
+    "cactus": {
+        "id": 81,
+        "ru": "Кактус"
+    },
+    "clay": {
+        "id": 82,
+        "cadabra": {
+            "name": "klinum",
+            "energy": 25
+        },
+        "ru": "Глиняный блок"
+    },
+    "reeds": {
+        "id": 83,
+        "ru": "Сахарный тростник"
+    },
+    "jukebox": {
+        "id": 84,
+        "ru": "Проигрыватель"
+    },
+    "fence": {
+        "id": 85,
+        "ru": "Забор"
+    },
+    "pumpkin": {
+        "id": 86,
+        "data": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Тыква"
+    },
+    "netherrack": {
+        "id": 87,
+        "cadabra": {
+            "name": "infernum",
+            "energy": 20
+        },
+        "ru": "Адский камень"
+    },
+    "soul_sand": {
+        "id": 88,
+        "ru": "Песок душ"
+    },
+    "glowstone": {
+        "id": 89,
+        "cadabra": {
+            "name": "illuminum",
+            "energy": 320
+        },
+        "ru": "Светокамень"
+    },
+    "portal": {
+        "id": 90,
+        "ru": "Блок портала Нижнего мира"
+    },
+    "lit_pumpkin": {
+        "id": 91,
+        "data": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Светильник Джека"
+    },
+    "cake": {
+        "id": 92,
+        "ru": "Торт"
+    },
+    "unpowered_repeater": {
+        "id": 93,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ]
+        },
+        "ru": "Красный повторитель (выкл.)"
+    },
+    "powered_repeater": {
+        "id": 94,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ]
+        },
+        "ru": "Красный повторитель (вкл.)"
+    },
+    "white_stained_glass": {
+        "id": 95,
+        "data": 0,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "gipsum",
+            "energy": 40
+        },
+        "ru": "Белое окрашенное стекло"
+    },
+    "orange_stained_glass": {
+        "id": 95,
+        "data": 1,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "carnelium",
+            "energy": 40
+        },
+        "ru": "Оранжевое окрашенное стекло"
+    },
+    "magenta_stained_glass": {
+        "id": 95,
+        "data": 2,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "rodonitum",
+            "energy": 40
+        },
+        "ru": "Сиреневое окрашенное стекло"
+    },
+    "light_blue_stained_glass": {
+        "id": 95,
+        "data": 3,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "akvamarinum",
+            "energy": 40
+        },
+        "ru": "Светло-синее окрашенное стекло"
+    },
+    "yellow_stained_glass": {
+        "id": 95,
+        "data": 4,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "citrinum",
+            "energy": 40
+        },
+        "ru": "Жёлтое окрашенное стекло"
+    },
+    "lime_stained_glass": {
+        "id": 95,
+        "data": 5,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "peridotum",
+            "energy": 40
+        },
+        "ru": "Лаймовое окрашенное стекло"
+    },
+    "pink_stained_glass": {
+        "id": 95,
+        "data": 6,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "rubellitum",
+            "energy": 40
+        },
+        "ru": "Розовое окрашенное стекло"
+    },
+    "gray_stained_glass": {
+        "id": 95,
+        "data": 7,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "gematitum",
+            "energy": 40
+        },
+        "ru": "Серое окрашенное стекло"
+    },
+    "light_gray_stained_glass": {
+        "id": 95,
+        "data": 8,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "pyritum",
+            "energy": 40
+        },
+        "ru": "Светло-серое окрашенное стекло"
+    },
+    "cyan_stained_glass": {
+        "id": 95,
+        "data": 9,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "amazonitum",
+            "energy": 40
+        },
+        "ru": "Бирюзовое окрашенное стекло"
+    },
+    "purple_stained_glass": {
+        "id": 95,
+        "data": 10,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "ametistum",
+            "energy": 40
+        },
+        "ru": "Фиолетовое окрашенное стекло"
+    },
+    "blue_stained_glass": {
+        "id": 95,
+        "data": 11,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "sapfirum",
+            "energy": 40
+        },
+        "ru": "Синее окрашенное стекло"
+    },
+    "brown_stained_glass": {
+        "id": 95,
+        "data": 12,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "giacintum",
+            "energy": 40
+        },
+        "ru": "Коричневое окрашенное стекло"
+    },
+    "green_stained_glass": {
+        "id": 95,
+        "data": 13,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "malahitum",
+            "energy": 40
+        },
+        "ru": "Зелёное окрашенное стекло"
+    },
+    "red_stained_glass": {
+        "id": 95,
+        "data": 14,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "rubinum",
+            "energy": 40
+        },
+        "ru": "Красное окрашенное стекло"
+    },
+    "black_stained_glass": {
+        "id": 95,
+        "data": 15,
+        "cadabra": {
+            "name": "steklassum",
+            "type": "grafitum",
+            "energy": 40
+        },
+        "ru": "Чёрное окрашенное стекло"
+    },
+    "trapdoor": {
+        "id": 96,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16
+            ]
+        },
+        "ru": "Люк"
+    },
+    "monster_egg": {
+        "id": 97,
+        "ru": "Камень чешуйниц"
+    },
+    "stonebrick": {
+        "id": 98,
+        "ru": "Каменный кирпич"
+    },
+    "brown_mushroom_block": {
+        "id": 99,
+        "ru": "Коричневый гриб (блок)"
+    },
+    "red_mushroom_block": {
+        "id": 100,
+        "ru": "Красный гриб (блок)"
+    },
+    "iron_bars": {
+        "id": 101,
+        "cadabra": {
+            "name": "barierum",
+            "energy": 100
+        },
+        "ru": "Железная решётка"
+    },
+    "glass_pane": {
+        "id": 102,
+        "cadabra": {
+            "name": "vitragum",
+            "energy": 240
+        },
+        "ru": "Стеклянная панель"
+    },
+    "melon_block": {
+        "id": 103,
+        "ru": "Арбуз"
+    },
+    "pumpkin_stem": {
+        "id": 104,
+        "ru": "Ствол тыквы"
+    },
+    "melon_stem": {
+        "id": 105,
+        "ru": "Ствол арбуза"
+    },
+    "vine": {
+        "id": 106,
+        "ru": "Лианы"
+    },
+    "fence_gate": {
+        "id": 107,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Ворота"
+    },
+    "brick_stairs": {
+        "id": 108,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "ru": "Кирпичные ступени"
+    },
+    "stone_brick_stairs": {
+        "id": 109,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "ru": "Ступени из каменного кирпича"
+    },
+    "mycelium": {
+        "id": 110,
+        "cadabra": {
+            "name": "micelium",
+            "energy": 240
+        },
+        "ru": "Мицелий"
+    },
+    "waterlily": {
+        "id": 111,
+        "ru": "Кувшинка"
+    },
+    "nether_brick": {
+        "id": 112,
+        "ru": "Блок адского кирпича"
+    },
+    "nether_brick_fence": {
+        "id": 113,
+        "ru": "Адский забор"
+    },
+    "nether_brick_stairs": {
+        "id": 114,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ]
+        },
+        "ru": "Ступени из адского кирпича"
+    },
+    "nether_wart": {
+        "id": 115,
+        "ru": "Адский нарост"
+    },
+    "enchanting_table": {
+        "id": 116,
+        "ru": "Стол зачаровывания"
+    },
+    "brewing_stand": {
+        "id": 117,
+        "ru": "Варочная стойка"
+    },
+    "cauldron": {
+        "id": 118,
+        "ru": "Котёл"
+    },
+    "end_portal": {
+        "id": 119,
+        "ru": "Блок портала Края"
+    },
+    "end_portal_frame": {
+        "id": 120,
+        "ru": "Рамка портала Края"
+    },
+    "end_stone": {
+        "id": 121,
+        "cadabra": {
+            "name": "endum",
+            "energy": 20
+        },
+        "ru": "Камень Края"
+    },
+    "dragon_egg": {
+        "id": 122,
+        "ru": "Яйцо дракона"
+    },
+    "redstone_lamp": {
+        "id": 123,
+        "ru": "Лампа (выкл.)"
+    },
+    "lit_redstone_lamp": {
+        "id": 124,
+        "ru": "Лампа (вкл.)"
+    },
+    "double_wooden_slab": {
+        "id": 125,
+        "ru": "Двойная деревянная плита"
+    },
+    "oak_slab": {
+        "id": 126,
+        "data": [
+            0,
+            8
+        ],
+        "cadabra": {
+            "name": "plitum",
+            "type": "dubum",
+            "power": [
+                1,
+                2
+            ],
+            "energy": 10
+        },
+        "ru": "Дубовая плита"
+    },
+    "spruce_slab": {
+        "id": 126,
+        "data": [
+            1,
+            9
+        ],
+        "cadabra": {
+            "name": "plitum",
+            "type": "pinium",
+            "power": [
+                1,
+                2
+            ],
+            "energy": 10
+        },
+        "ru": "Хвойная плита"
+    },
+    "birch_slab": {
+        "id": 126,
+        "data": [
+            2,
+            10
+        ],
+        "cadabra": {
+            "name": "plitum",
+            "type": "berezum",
+            "power": [
+                1,
+                2
+            ],
+            "energy": 10
+        },
+        "ru": "Берёзовая плита"
+    },
+    "jungle_slab": {
+        "id": 126,
+        "data": [
+            3,
+            11
+        ],
+        "cadabra": {
+            "name": "plitum",
+            "type": "junglum",
+            "power": [
+                1,
+                2
+            ],
+            "energy": 10
+        },
+        "ru": "Плита из трипического дерева"
+    },
+    "acacia_slab": {
+        "id": 126,
+        "data": [
+            4,
+            12
+        ],
+        "cadabra": {
+            "name": "plitum",
+            "type": "acacium",
+            "power": [
+                1,
+                2
+            ],
+            "energy": 10
+        },
+        "ru": "Акациевая плита"
+    },
+    "dark_oak_slab": {
+        "id": 126,
+        "data": [
+            5,
+            13
+        ],
+        "cadabra": {
+            "name": "plitum",
+            "type": "darkdubum",
+            "power": [
+                1,
+                2
+            ],
+            "energy": 10
+        },
+        "ru": "Плита из тёмного дуба"
+    },
+    "cocoa": {
+        "id": 127,
+        "ru": "Плод какао"
+    },
+    "sandstone_stairs": {
+        "id": 128,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "ru": "Песчаниковые ступени"
+    },
+    "emerald_ore": {
+        "id": 129,
+        "ru": "Изумрудная руда"
+    },
+    "ender_chest": {
+        "id": 130,
+        "data": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Сундук Края"
+    },
+    "tripwire_hook": {
+        "id": 131,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Натяжной датчик"
+    },
+    "tripwire": {
+        "id": 132,
+        "ru": "Растяжка"
+    },
+    "emerald_block": {
+        "id": 133,
+        "ru": "Изумрудный блок"
+    },
+    "spruce_stairs": {
+        "id": 134,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "cadabra": {
+            "name": "elevatum",
+            "type": "pinium",
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "energy": 10
+        },
+        "ru": "Еловые ступени"
+    },
+    "birch_stairs": {
+        "id": 135,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "cadabra": {
+            "name": "elevatum",
+            "type": "berezum",
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "energy": 10
+        },
+        "ru": "Берёзовые ступени"
+    },
+    "jungle_stairs": {
+        "id": 136,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "cadabra": {
+            "name": "elevatum",
+            "type": "junglum",
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "energy": 10
+        },
+        "ru": "Джунглевые ступени"
+    },
+    "command_block": {
+        "id": 137,
+        "ru": "Командный блок"
+    },
+    "beacon": {
+        "id": 138,
+        "ru": "Маяк"
+    },
+    "cobblestone_wall": {
+        "id": 139,
+        "ru": "Булыжниковая стена"
+    },
+    "flower_pot": {
+        "id": 140,
+        "ru": "Цветочный горшок"
+    },
+    "carrots": {
+        "id": 141,
+        "ru": "Морковь"
+    },
+    "potatoes": {
+        "id": 142,
+        "ru": "Картофель"
+    },
+    "wooden_button": {
+        "id": 143,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Деревянная кнопка"
+    },
+    "skull": {
+        "id": 144,
+        "data": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "ru": "Голова"
+    },
+    "anvil": {
+        "id": 145,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Наковальня"
+    },
+    "trapped_chest": {
+        "id": 146,
+        "data": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "ru": "Сундук-ловушка"
+    },
+    "light_weighted_pressure_plate": {
+        "id": 147,
+        "ru": "Утяжелённая нажимная пластина (Лёгкая)"
+    },
+    "heavy_weighted_pressure_plate": {
+        "id": 148,
+        "ru": "Утяжелённая нажимная пластина (Тяжёлая)"
+    },
+    "unpowered_comparator": {
+        "id": 149,
+        "ru": "Компаратор (неактивный)"
+    },
+    "powered_comparator": {
+        "id": 150,
+        "ru": "Компаратор (активный)"
+    },
+    "daylight_detector": {
+        "id": 151,
+        "ru": "Датчик дневного света"
+    },
+    "redstone_block": {
+        "id": 152,
+        "cadabra": {
+            "name": "redum",
+            "energy": 90
+        },
+        "ru": "Блок красного камня"
+    },
+    "quartz_ore": {
+        "id": 153,
+        "ru": "Кварцевая руда Нижнего мира"
+    },
+    "hopper": {
+        "id": 154,
+        "data": [
+            0,
+            2,
+            3,
+            4,
+            5
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "ru": "Загрузочная воронка"
+    },
+    "quartz_block": {
+        "id": 155,
+        "data": [
+            0,
+            4,
+            8
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3
+            ]
+        },
+        "ru": "Кварцевый блок"
+    },
+    "chiseled_quartz_block": {
+        "id": 155,
+        "data": [
+            1,
+            5,
+            9
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3
+            ]
+        },
+        "ru": "Резной кварцевый блок"
+    },
+    "quartz_pillar": {
+        "id": 155,
+        "data": [
+            2,
+            6,
+            10
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3
+            ]
+        },
+        "ru": "Кварцевый пилон"
+    },
+    "smooth_quartz": {
+        "id": 155,
+        "data": [
+            3,
+            7,
+            11
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3
+            ]
+        },
+        "ru": "Гладкий кварцевый блок"
+    },
+    "quartz_stairs": {
+        "id": 156,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "ru": "Кварцевые ступени"
+    },
+    "activator_rail": {
+        "id": 157,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Активирующие рельсы"
+    },
+    "dropper": {
+        "id": 158,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ]
+        },
+        "ru": "Выбрасыватель"
+    },
+    "white_terracotta": {
+        "id": 159,
+        "data": 0,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "gipsum",
+            "energy": 40
+        },
+        "ru": "Белая керамика"
+    },
+    "orange_terracotta": {
+        "id": 159,
+        "data": 1,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "carnelium",
+            "energy": 40
+        },
+        "ru": "Оранжевая керамика"
+    },
+    "magenta_terracotta": {
+        "id": 159,
+        "data": 2,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "rodonitum",
+            "energy": 40
+        },
+        "ru": "Сиреневая керамика"
+    },
+    "light_blue_terracotta": {
+        "id": 159,
+        "data": 3,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "akvamarinum",
+            "energy": 40
+        },
+        "ru": "Светло-синяя керамика"
+    },
+    "yellow_terracotta": {
+        "id": 159,
+        "data": 4,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "citrinum",
+            "energy": 40
+        },
+        "ru": "Жёлтая керамика"
+    },
+    "lime_terracotta": {
+        "id": 159,
+        "data": 5,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "peridotum",
+            "energy": 40
+        },
+        "ru": "Лаймовая керамика"
+    },
+    "pink_terracotta": {
+        "id": 159,
+        "data": 6,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "rubellitum",
+            "energy": 40
+        },
+        "ru": "Розовая керамика"
+    },
+    "gray_terracotta": {
+        "id": 159,
+        "data": 7,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "gematitum",
+            "energy": 40
+        },
+        "ru": "Серая керамика"
+    },
+    "light_gray_terracotta": {
+        "id": 159,
+        "data": 8,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "pyritum",
+            "energy": 40
+        },
+        "ru": "Светло-серая керамика"
+    },
+    "cyan_terracotta": {
+        "id": 159,
+        "data": 9,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "amazonitum",
+            "energy": 40
+        },
+        "ru": "Бирюзовая керамика"
+    },
+    "purple_terracotta": {
+        "id": 159,
+        "data": 10,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "ametistum",
+            "energy": 40
+        },
+        "ru": "Фиолетовая керамика"
+    },
+    "blue_terracotta": {
+        "id": 159,
+        "data": 11,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "sapfirum",
+            "energy": 40
+        },
+        "ru": "Синяя керамика"
+    },
+    "brown_terracotta": {
+        "id": 159,
+        "data": 12,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "giacintum",
+            "energy": 40
+        },
+        "ru": "Коричневая керамика"
+    },
+    "green_terracotta": {
+        "id": 159,
+        "data": 13,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "malahitum",
+            "energy": 40
+        },
+        "ru": "Зелёная керамика"
+    },
+    "red_terracotta": {
+        "id": 159,
+        "data": 14,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "rubinum",
+            "energy": 40
+        },
+        "ru": "Красная керамика"
+    },
+    "black_terracotta": {
+        "id": 159,
+        "data": 15,
+        "cadabra": {
+            "name": "keramicum",
+            "type": "grafitum",
+            "energy": 40
+        },
+        "ru": "Чёрная керамика"
+    },
+    "white_stained_glass_pane": {
+        "id": 160,
+        "data": 0,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "gipsum",
+            "energy": 40
+        },
+        "ru": "Белая окрашенная стеклянная панель"
+    },
+    "orange_stained_glass_pane": {
+        "id": 160,
+        "data": 1,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "carnelium",
+            "energy": 40
+        },
+        "ru": "Оранжевая окрашенная стеклянная панель"
+    },
+    "magenta_stained_glass_pane": {
+        "id": 160,
+        "data": 2,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "rodonitum",
+            "energy": 40
+        },
+        "ru": "Сиреневая окрашенная стеклянная панель"
+    },
+    "light_blue_stained_glass_pane": {
+        "id": 160,
+        "data": 3,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "akvamarinum",
+            "energy": 40
+        },
+        "ru": "Светло-синяя окрашенная стеклянная панель"
+    },
+    "yellow_stained_glass_pane": {
+        "id": 160,
+        "data": 4,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "citrinum",
+            "energy": 40
+        },
+        "ru": "Жёлтая окрашенная стеклянная панель"
+    },
+    "lime_stained_glass_pane": {
+        "id": 160,
+        "data": 5,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "peridotum",
+            "energy": 40
+        },
+        "ru": "Лаймовая окрашенная стеклянная панель"
+    },
+    "pink_stained_glass_pane": {
+        "id": 160,
+        "data": 6,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "rubellitum",
+            "energy": 40
+        },
+        "ru": "Розовая окрашенная стеклянная панель"
+    },
+    "gray_stained_glass_pane": {
+        "id": 160,
+        "data": 7,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "gematitum",
+            "energy": 40
+        },
+        "ru": "Серая окрашенная стеклянная панель"
+    },
+    "light_gray_stained_glass_pane": {
+        "id": 160,
+        "data": 8,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "pyritum",
+            "energy": 40
+        },
+        "ru": "Светло-серая окрашенная стеклянная панель"
+    },
+    "cyan_stained_glass_pane": {
+        "id": 160,
+        "data": 9,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "amazonitum",
+            "energy": 40
+        },
+        "ru": "Бирюзовая окрашенная стеклянная панель"
+    },
+    "purple_stained_glass_pane": {
+        "id": 160,
+        "data": 10,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "ametistum",
+            "energy": 40
+        },
+        "ru": "Фиолетовая окрашенная стеклянная панель"
+    },
+    "blue_stained_glass_pane": {
+        "id": 160,
+        "data": 11,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "sapfirum",
+            "energy": 40
+        },
+        "ru": "Синяя окрашенная стеклянная панель"
+    },
+    "brown_stained_glass_pane": {
+        "id": 160,
+        "data": 12,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "giacintum",
+            "energy": 40
+        },
+        "ru": "Коричневая окрашенная стеклянная панель"
+    },
+    "green_stained_glass_pane": {
+        "id": 160,
+        "data": 13,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "malahitum",
+            "energy": 40
+        },
+        "ru": "Зелёная окрашенная стеклянная панель"
+    },
+    "red_stained_glass_pane": {
+        "id": 160,
+        "data": 14,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "rubinum",
+            "energy": 40
+        },
+        "ru": "Красная окрашенная стеклянная панель"
+    },
+    "black_stained_glass_pane": {
+        "id": 160,
+        "data": 15,
+        "cadabra": {
+            "name": "vitragum",
+            "type": "grafitum",
+            "energy": 40
+        },
+        "ru": "Чёрная окрашенная стеклянная панель"
+    },
+    "acacia_leaves": {
+        "id": 161,
+        "data": [
+            0,
+            4,
+            8,
+            12
+        ],
+        "ru": "Акациевая листва"
+    },
+    "dark_oak_leave": {
+        "id": 161,
+        "data": [
+            1,
+            5,
+            9,
+            13
+        ],
+        "ru": "Тёмно-дубовая листва"
+    },
+    "acacia_log": {
+        "id": 162,
+        "data": [
+            0,
+            4,
+            8,
+            12
+        ],
+        "cadabra": {
+            "name": "balcum",
+            "type": "acacium",
+            "power": [
+                1,
+                2,
+                3
+            ],
+            "energy": 30
+        },
+        "ru": "Акациевая древесина"
+    },
+    "dark_oak_log": {
+        "id": 162,
+        "data": [
+            1,
+            5,
+            9,
+            13
+        ],
+        "cadabra": {
+            "name": "balcum",
+            "type": "darkdubum",
+            "power": [
+                1,
+                2,
+                3
+            ],
+            "energy": 30
+        },
+        "ru": "Древесина тёмного дуба"
+    },
+    "acacia_stairs": {
+        "id": 163,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "cadabra": {
+            "name": "elevatum",
+            "type": "acacium",
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "energy": 10
+        },
+        "ru": "Акациевые ступени"
+    },
+    "dark_oak_stairs": {
+        "id": 164,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "cadabra": {
+            "name": "elevatum",
+            "type": "darkdubum",
+            "power": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "energy": 10
+        },
+        "ru": "Тёмнодубовые ступени"
+    },
+    "slime": {
+        "id": 165,
+        "ru": "Блок слизи"
+    },
+    "barrier": {
+        "id": 166,
+        "ru": "Барьер"
+    },
+    "iron_trapdoor": {
+        "id": 167,
+        "ru": "Железный люк"
+    },
+    "prismarine": {
+        "id": 168,
+        "data": 0,
+        "cadabra": {
+            "name": "prismum",
+            "energy": 40
+        },
+        "ru": "Призмарин"
+    },
+    "prismarine_bricks": {
+        "id": 168,
+        "data": 1,
+        "ru": "Призмариновый кирпич"
+    },
+    "dark_prismarine": {
+        "id": 168,
+        "data": 2,
+        "ru": "Тёмный призмарин"
+    },
+    "sea_lantern": {
+        "id": 169,
+        "cadabra": {
+            "name": "lampum",
+            "energy": 160
+        },
+        "ru": "Морской фонарь"
+    },
+    "hay_block": {
+        "id": 170,
+        "ru": "Сноп сена"
+    },
+    "white_carpet": {
+        "id": 171,
+        "data": 0,
+        "ru": "Белый ковёр"
+    },
+    "orange_carpet": {
+        "id": 171,
+        "data": 1,
+        "ru": "Оранжевый ковёр"
+    },
+    "magenta_carpet": {
+        "id": 171,
+        "data": 2,
+        "ru": "Сиреневый ковёр"
+    },
+    "light_blue_carpet": {
+        "id": 171,
+        "data": 3,
+        "ru": "Светло-синий ковёр"
+    },
+    "yellow_carpet": {
+        "id": 171,
+        "data": 4,
+        "ru": "Жёлтый ковёр"
+    },
+    "lime_carpet": {
+        "id": 171,
+        "data": 5,
+        "ru": "Лаймовый ковёр"
+    },
+    "pink_carpet": {
+        "id": 171,
+        "data": 6,
+        "ru": "Розовый ковёр"
+    },
+    "gray_carpet": {
+        "id": 171,
+        "data": 7,
+        "ru": "Серый ковёр"
+    },
+    "light_gray_carpet": {
+        "id": 171,
+        "data": 8,
+        "ru": "Светло-серый ковёр"
+    },
+    "cyan_carpet": {
+        "id": 171,
+        "data": 9,
+        "ru": "Бирюзовый ковёр"
+    },
+    "purple_carpet": {
+        "id": 171,
+        "data": 10,
+        "ru": "Фиолетовый ковёр"
+    },
+    "blue_carpet": {
+        "id": 171,
+        "data": 11,
+        "ru": "Синий ковёр"
+    },
+    "brown_carpet": {
+        "id": 171,
+        "data": 12,
+        "ru": "Коричневый ковёр"
+    },
+    "green_carpet": {
+        "id": 171,
+        "data": 13,
+        "ru": "Зелёный ковёр"
+    },
+    "red_carpet": {
+        "id": 171,
+        "data": 14,
+        "ru": "Красный ковёр"
+    },
+    "black_carpet": {
+        "id": 171,
+        "data": 15,
+        "ru": "Чёрный ковёр"
+    },
+    "hardened_clay": {
+        "id": 172,
+        "cadabra": {
+            "name": "keramicum",
+            "energy": 40
+        },
+        "ru": "Терракота"
+    },
+    "coal_block": {
+        "id": 173,
+        "ru": "Угольный блок"
+    },
+    "packed_ice": {
+        "id": 174,
+        "cadabra": {
+            "name": "refrigerum",
+            "energy": 400
+        },
+        "ru": "Плотный лёд"
+    },
+    "sunflower": {
+        "id": 175,
+        "data": 0,
+        "ru": "Подсолнечник"
+    },
+    "lilac": {
+        "id": 175,
+        "data": 1,
+        "ru": "Сирень"
+    },
+    "tall_grass": {
+        "id": 175,
+        "data": 2,
+        "ru": "Высокая трава"
+    },
+    "large_fern": {
+        "id": 175,
+        "data": 3,
+        "ru": "Раскидистый папоротник"
+    },
+    "rose_bush": {
+        "id": 175,
+        "data": 4,
+        "ru": "Розовый куст"
+    },
+    "peony": {
+        "id": 175,
+        "data": 5,
+        "ru": "Пион"
+    },
+    "standing_banner": {
+        "id": 176,
+        "ru": "Напольный флаг"
+    },
+    "wall_banner": {
+        "id": 177,
+        "ru": "Настенный флаг"
+    },
+    "daylight_detector_inverted": {
+        "id": 178,
+        "ru": "Инвертированный датчик дневного света"
+    },
+    "red_sandstone": {
+        "id": 179,
+        "data": 0,
+        "ru": "Красный песчаник"
+    },
+    "cut_red_sandstone": {
+        "id": 179,
+        "data": 1,
+        "ru": "Резной красный песчаник"
+    },
+    "chiseled_red_sandston": {
+        "id": 179,
+        "data": 2,
+        "ru": "Декоративный красный песчаник"
+    },
+    "red_sandstone_stairs": {
+        "id": 180,
+        "data": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+        ],
+        "ru": "Ступени из красного песчаника"
+    },
+    "double_stone_slab2": {
+        "id": 181,
+        "ru": "Двойная плита из красного песчаника"
+    },
+    "stone_slab2": {
+        "id": 182,
+        "data": [
+            0,
+            8
+        ],
+        "cadabra": {
+            "power": [
+                1,
+                2
+            ]
+        },
+        "ru": "Плита из красного песчаника"
+    },
+    "spruce_fence_gate": {
+        "id": 183,
+        "ru": "Еловые ворота"
+    },
+    "birch_fence_gate": {
+        "id": 184,
+        "ru": "Берёзовые ворота"
+    },
+    "jungle_fence_gate": {
+        "id": 185,
+        "ru": "Джунглевые ворота"
+    },
+    "dark_oak_fence_gate": {
+        "id": 186,
+        "ru": "Ворота из тёмного дуба"
+    },
+    "acacia_fence_gate": {
+        "id": 187,
+        "ru": "Акациевые ворота"
+    },
+    "spruce_fence": {
+        "id": 188,
+        "ru": "Еловый забор"
+    },
+    "birch_fence": {
+        "id": 189,
+        "ru": "Берёзовый забор"
+    },
+    "jungle_fence": {
+        "id": 190,
+        "ru": "Джунглевый забор"
+    },
+    "dark_oak_fence": {
+        "id": 191,
+        "ru": "Забор из тёмного дуба"
+    },
+    "acacia_fence": {
+        "id": 192,
+        "ru": "Акациевый забор"
+    },
+    "spruce_door": {
+        "id": 193,
+        "ru": "Еловая дверь"
+    },
+    "birch_door": {
+        "id": 194,
+        "ru": "Берёзовая дверь"
+    },
+    "jungle_door": {
+        "id": 195,
+        "ru": "Джунглевая дверь"
+    },
+    "acacia_door": {
+        "id": 196,
+        "ru": "Дверь из акации"
+    },
+    "dark_oak_door": {
+        "id": 197,
+        "ru": "Дверь из тёмного дуба"
+    },
+    "end_rod": {
+        "id": 198,
+        "ru": "Стержень Края"
+    },
+    "chorus_plant": {
+        "id": 199,
+        "ru": "Растение коруса"
+    },
+    "chorus_flower": {
+        "id": 200,
+        "ru": "Цветок коруса"
+    },
+    "purpur_block": {
+        "id": 201,
+        "cadabra": {
+            "name": "purpurum",
+            "energy": 100
+        },
+        "ru": "Пурпурный блок"
+    },
+    "purpur_pillar": {
+        "id": 202,
+        "ru": "Пурпурный пилон"
+    },
+    "purpur_stairs": {
+        "id": 203,
+        "ru": "Пурпурные ступени"
+    },
+    "purpur_double_slab": {
+        "id": 204,
+        "ru": "Двойная пурпурная плита"
+    },
+    "purpur_slab": {
+        "id": 205,
+        "ru": "Пурпурная плита"
+    },
+    "end_bricks": {
+        "id": 206,
+        "ru": "Каменный кирпич Края"
+    },
+    "beetroots": {
+        "id": 207,
+        "ru": "Семена свёклы"
+    },
+    "grass_path": {
+        "id": 208,
+        "ru": "Травяная тропинка"
+    },
+    "end_gateway": {
+        "id": 209,
+        "ru": "Блок врат Края"
+    },
+    "repeating_command_block": {
+        "id": 210,
+        "ru": "Цикличный командный блок"
+    },
+    "chain_command_block": {
+        "id": 211,
+        "ru": "Цепной командный блок"
+    },
+    "frosted_ice": {
+        "id": 212,
+        "ru": "Подмороженный лёд"
+    },
+    "magma": {
+        "id": 213,
+        "cadabra": {
+            "name": "magmum",
+            "energy": 160
+        },
+        "ru": "Магмовый блок"
+    },
+    "nether_wart_block": {
+        "id": 214,
+        "ru": "Блок адского нароста"
+    },
+    "red_nether_brick": {
+        "id": 215,
+        "ru": "Красный адский кирпич"
+    },
+    "bone_block": {
+        "id": 216,
+        "ru": "Костяной блок"
+    },
+    "structure_void": {
+        "id": 217,
+        "ru": "Структурная пустота"
+    },
+    "observer": {
+        "id": 218,
+        "ru": "Наблюдатель"
+    },
+    "white_shulker_box": {
+        "id": 219,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "gipsum",
+            "energy": 320
+        },
+        "ru": "Белый шалкеровый ящик"
+    },
+    "orange_shulker_box": {
+        "id": 220,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "carnelium",
+            "energy": 320
+        },
+        "ru": "Оранжевый шалкеровый ящик"
+    },
+    "magenta_shulker_box": {
+        "id": 221,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "rodonitum",
+            "energy": 320
+        },
+        "ru": "Сиреневый шалкеровый ящик"
+    },
+    "light_blue_shulker_box": {
+        "id": 222,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "akvamarinum",
+            "energy": 320
+        },
+        "ru": "Светло-синий шалкеровый ящик"
+    },
+    "yellow_shulker_box": {
+        "id": 223,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "citrinum",
+            "energy": 320
+        },
+        "ru": "Жёлтый шалкеровый ящик"
+    },
+    "lime_shulker_box": {
+        "id": 224,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "peridotum",
+            "energy": 320
+        },
+        "ru": "Лаймовый шалкеровый ящик"
+    },
+    "pink_shulker_box": {
+        "id": 225,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "rubellitum",
+            "energy": 320
+        },
+        "ru": "Розовый шалкеровый ящик"
+    },
+    "gray_shulker_box": {
+        "id": 226,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "gematitum",
+            "energy": 320
+        },
+        "ru": "Серый шалкеровый ящик"
+    },
+    "light_gray_shulker_box": {
+        "id": 227,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "pyritum",
+            "energy": 320
+        },
+        "ru": "Светло-серый шалкеровый ящик"
+    },
+    "cyan_shulker_box": {
+        "id": 228,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "amazonitum",
+            "energy": 320
+        },
+        "ru": "Бирюзовый шалкеровый ящик"
+    },
+    "purple_shulker_box": {
+        "id": 229,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "ametistum",
+            "energy": 320
+        },
+        "ru": "Шалкеровый ящик"
+    },
+    "blue_shulker_box": {
+        "id": 230,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "sapfirum",
+            "energy": 320
+        },
+        "ru": "Синий шалкеровый ящик"
+    },
+    "brown_shulker_box": {
+        "id": 231,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "giacintum",
+            "energy": 320
+        },
+        "ru": "Коричневый шалкеровый ящик"
+    },
+    "green_shulker_box": {
+        "id": 232,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "malahitum",
+            "energy": 320
+        },
+        "ru": "Зелёный шалкеровый ящик"
+    },
+    "red_shulker_box": {
+        "id": 233,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "rubinum",
+            "energy": 320
+        },
+        "ru": "Красный шалкеровый ящик"
+    },
+    "black_shulker_box": {
+        "id": 234,
+        "cadabra": {
+            "name": "shulkerum",
+            "type": "grafitum",
+            "energy": 320
+        },
+        "ru": "Чёрный шалкеровый ящик"
+    },
+    "white_glazed_terracotta": {
+        "id": 235,
+        "ru": "Белая глазурованная керамика"
+    },
+    "orange_glazed_terracotta": {
+        "id": 236,
+        "ru": "Оранжевая глазурованная керамика"
+    },
+    "magenta_glazed_terracotta": {
+        "id": 237,
+        "ru": "Сиреневая глазурованная керамика"
+    },
+    "light_blue_glazed_terracotta": {
+        "id": 238,
+        "ru": "Светло-синяя глазурованная керамика"
+    },
+    "yellow_glazed_terracotta": {
+        "id": 239,
+        "ru": "Жёлтая глазурованная керамика"
+    },
+    "lime_glazed_terracotta": {
+        "id": 240,
+        "ru": "Лаймовая глазурованная керамика"
+    },
+    "pink_glazed_terracotta": {
+        "id": 241,
+        "ru": "Розовая глазурованная керамика"
+    },
+    "gray_glazed_terracotta": {
+        "id": 242,
+        "ru": "Серая глазурованная керамика"
+    },
+    "light_gray_glazed_terracotta": {
+        "id": 243,
+        "ru": "Светло-серая глазурованная керамика"
+    },
+    "cyan_glazed_terracotta": {
+        "id": 244,
+        "ru": "Бирюзовая глазурованная керамика"
+    },
+    "purple_glazed_terracotta": {
+        "id": 245,
+        "ru": "Фиолетовая глазурованная керамика"
+    },
+    "blue_glazed_terracotta": {
+        "id": 246,
+        "ru": "Синяя глазурованная керамика"
+    },
+    "brown_glazed_terracotta": {
+        "id": 247,
+        "ru": "Коричневая глазурованная керамика"
+    },
+    "green_glazed_terracotta": {
+        "id": 248,
+        "ru": "Зелёная глазурованная керамика"
+    },
+    "red_glazed_terracotta": {
+        "id": 249,
+        "ru": "Красная глазурованная керамика"
+    },
+    "black_glazed_terracotta": {
+        "id": 250,
+        "ru": "Чёрная глазурованная керамика"
+    },
+    "white_concrete": {
+        "id": 251,
+        "data": 0,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "gipsum",
+            "energy": 15
+        },
+        "ru": "Белый бетон"
+    },
+    "orange_concrete": {
+        "id": 251,
+        "data": 1,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "carnelium",
+            "energy": 15
+        },
+        "ru": "Оранжевый бетон"
+    },
+    "magenta_concrete": {
+        "id": 251,
+        "data": 2,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "rodonitum",
+            "energy": 15
+        },
+        "ru": "Сиреневый бетон"
+    },
+    "light_blue_concrete": {
+        "id": 251,
+        "data": 3,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "akvamarinum",
+            "energy": 15
+        },
+        "ru": "Светло-синий керамика"
+    },
+    "yellow_concrete": {
+        "id": 251,
+        "data": 4,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "citrinum",
+            "energy": 15
+        },
+        "ru": "Жёлтый бетон"
+    },
+    "lime_concrete": {
+        "id": 251,
+        "data": 5,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "peridotum",
+            "energy": 15
+        },
+        "ru": "Лаймовый бетон"
+    },
+    "pink_concrete": {
+        "id": 251,
+        "data": 6,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "rubellitum",
+            "energy": 15
+        },
+        "ru": "Розовый бетон"
+    },
+    "gray_concrete": {
+        "id": 251,
+        "data": 7,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "gematitum",
+            "energy": 15
+        },
+        "ru": "Серый бетон"
+    },
+    "light_gray_concrete": {
+        "id": 251,
+        "data": 8,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "pyritum",
+            "energy": 15
+        },
+        "ru": "Светло-серый бетон"
+    },
+    "cyan_concrete": {
+        "id": 251,
+        "data": 9,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "amazonitum",
+            "energy": 15
+        },
+        "ru": "Бирюзовый бетон"
+    },
+    "purple_concrete": {
+        "id": 251,
+        "data": 10,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "ametistum",
+            "energy": 15
+        },
+        "ru": "Фиолетовый бетон"
+    },
+    "blue_concrete": {
+        "id": 251,
+        "data": 11,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "sapfirum",
+            "energy": 15
+        },
+        "ru": "Синий керамика"
+    },
+    "brown_concrete": {
+        "id": 251,
+        "data": 12,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "giacintum",
+            "energy": 15
+        },
+        "ru": "Коричневый бетон"
+    },
+    "green_concrete": {
+        "id": 251,
+        "data": 13,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "malahitum",
+            "energy": 15
+        },
+        "ru": "Зелёный бетон"
+    },
+    "red_concrete": {
+        "id": 251,
+        "data": 14,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "rubinum",
+            "energy": 15
+        },
+        "ru": "Красный бетон"
+    },
+    "black_concrete": {
+        "id": 251,
+        "data": 15,
+        "cadabra": {
+            "name": "alabastrum",
+            "type": "grafitum",
+            "energy": 15
+        },
+        "ru": "Чёрный бетон"
+    },
+    "white_concrete_powder": {
+        "id": 252,
+        "data": 0,
+        "cadabra": {
+            "name": "cementum",
+            "type": "gipsum",
+            "energy": 15
+        },
+        "ru": "Белый цемент"
+    },
+    "orange_concrete_powder": {
+        "id": 252,
+        "data": 1,
+        "cadabra": {
+            "name": "cementum",
+            "type": "carnelium",
+            "energy": 15
+        },
+        "ru": "Оранжевый цемент"
+    },
+    "magenta_concrete_powder": {
+        "id": 252,
+        "data": 2,
+        "cadabra": {
+            "name": "cementum",
+            "type": "rodonitum",
+            "energy": 15
+        },
+        "ru": "Сиреневый цемент"
+    },
+    "light_blue_concrete_powder": {
+        "id": 252,
+        "data": 3,
+        "cadabra": {
+            "name": "cementum",
+            "type": "akvamarinum",
+            "energy": 15
+        },
+        "ru": "Светло-синий цемент"
+    },
+    "yellow_concrete_powder": {
+        "id": 252,
+        "data": 4,
+        "cadabra": {
+            "name": "cementum",
+            "type": "citrinum",
+            "energy": 15
+        },
+        "ru": "Жёлтый цемент"
+    },
+    "lime_concrete_powder": {
+        "id": 252,
+        "data": 5,
+        "cadabra": {
+            "name": "cementum",
+            "type": "peridotum",
+            "energy": 15
+        },
+        "ru": "Лаймовый цемент"
+    },
+    "pink_concrete_powder": {
+        "id": 252,
+        "data": 6,
+        "cadabra": {
+            "name": "cementum",
+            "type": "rubellitum",
+            "energy": 15
+        },
+        "ru": "Розовый цемент"
+    },
+    "gray_concrete_powder": {
+        "id": 252,
+        "data": 7,
+        "cadabra": {
+            "name": "cementum",
+            "type": "gematitum",
+            "energy": 15
+        },
+        "ru": "Серый цемент"
+    },
+    "light_gray_concrete_powder": {
+        "id": 252,
+        "data": 8,
+        "cadabra": {
+            "name": "cementum",
+            "type": "pyritum",
+            "energy": 15
+        },
+        "ru": "Светло-серый цемент"
+    },
+    "cyan_concrete_powder": {
+        "id": 252,
+        "data": 9,
+        "cadabra": {
+            "name": "cementum",
+            "type": "amazonitum",
+            "energy": 15
+        },
+        "ru": "Бирюзовый цемент"
+    },
+    "purple_concrete_powder": {
+        "id": 252,
+        "data": 10,
+        "cadabra": {
+            "name": "cementum",
+            "type": "ametistum",
+            "energy": 15
+        },
+        "ru": "Фиолетовый цемент"
+    },
+    "blue_concrete_powder": {
+        "id": 252,
+        "data": 11,
+        "cadabra": {
+            "name": "cementum",
+            "type": "sapfirum",
+            "energy": 15
+        },
+        "ru": "Синий цемент"
+    },
+    "brown_concrete_powder": {
+        "id": 252,
+        "data": 12,
+        "cadabra": {
+            "name": "cementum",
+            "type": "giacintum",
+            "energy": 15
+        },
+        "ru": "Коричневый цемент"
+    },
+    "green_concrete_powder": {
+        "id": 252,
+        "data": 13,
+        "cadabra": {
+            "name": "cementum",
+            "type": "malahitum",
+            "energy": 15
+        },
+        "ru": "Зелёный цемент"
+    },
+    "red_concrete_powder": {
+        "id": 252,
+        "data": 14,
+        "cadabra": {
+            "name": "cementum",
+            "type": "rubinum",
+            "energy": 15
+        },
+        "ru": "Красный цемент"
+    },
+    "black_concrete_powder": {
+        "id": 252,
+        "data": 15,
+        "cadabra": {
+            "name": "cementum",
+            "type": "grafitum",
+            "energy": 15
+        },
+        "ru": "Чёрный цемент"
+    },
+    "structure_block": {
+        "id": 255,
+        "ru": "Структурный блок"
+    }
+}
