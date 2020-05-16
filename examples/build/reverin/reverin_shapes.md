@@ -181,7 +181,7 @@
 27        !!!!!!! multiplux !!!!!!!     |        !temp *= !temp;
 29        !!!!!! plux !!!!!!!           |        !curr_distance += !temp;
 30        !!!!!! prevalix !!!!!!!!      |        if (!curr_distance <= !distance)
-31        \* materium \*\*              |          *block materium *type;
+31        * materium **                 |          *block materium *type;
 32        .                             |        end
 33        !unu n modi                   |        $power = 1; (x, y+1, z);
 33        !!! prevalix nulo             |        if (!y <= 0)
@@ -290,7 +290,7 @@
 9   cyklix                  |  for
 10    cyklix                |    for
 11      cyklix              |      for
-12        \* materium \*\*  |        *block materium *type;
+12        * materium **     |        *block materium *type;
 13        !unu n modi       |        $power = 1; (x, y+1, z);
 14      reprizix            |      end
 15      e modi              |      (x+1, y, z);
@@ -346,8 +346,8 @@ CUBE:
 !! ekvivax ! !unu luft ! ekvivax
 !! ! minux unu ! fraktix du d
 modi sw modi ! ekvivax !!
-cyklix cyklix cyklix \*
-materium \*\* !unu n modi
+cyklix cyklix cyklix *
+materium ** !unu n modi
 reprizix e modi ! ekvivax !! s
 modi repnizix !unu u modi !
 ekvivax !! w modi reprizix <
@@ -365,8 +365,8 @@ ekvivax ! cyklix !!!!!!!!!!unu cyklix
 multiplux !!!!!! !!!!!!! ekvivax !!!! !!!!!!!
 multiplux !!!!!!! !!!!!! plux !!!!!!! !!!!!!!
 ekvivax !!!!! !!!!!!! multiplux !!!!!!! !!!!!!
-plux !!!!!!! !!!!!! prevalix !!!!!!!! \*
-materium \*\* . !unu n modi !!!
+plux !!!!!!! !!!!!! prevalix !!!!!!!! *
+materium ** . !unu n modi !!!
 
 prevalix nulo !!!!!!!!!nulo . . . !!!!!!!!!
 identix unu !!! plux unu
@@ -388,8 +388,8 @@ PYRAMID:
 !! ekvivax ! !unu luft ! ekvivax
 !! ! minux unu ! fraktix du
 sw modi ! ekvivax !!
-cyklix cyklix cyklix \*
-materium \*\* !unu n modi
+cyklix cyklix cyklix *
+materium ** !unu n modi
 reprizix e modi ! ekvivax !! s
 modi reprizix w modi !unu u
 modi ne modi !! minux du !
