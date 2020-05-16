@@ -341,61 +341,19 @@
 ## Исходник ##
 
 ```cadabra
-am
-CUBE:
-!! ekvivax ! !unu luft ! ekvivax
-!! ! minux unu ! fraktix du d
-modi sw modi ! ekvivax !!
-cyklix cyklix cyklix *
-materium ** !unu n modi
-reprizix e modi ! ekvivax !! s
-modi repnizix !unu u modi !
-ekvivax !! w modi reprizix <
+am CUBE: !! ekvivax ! !unu luft ! ekvivax !! ! minux unu ! fraktix du d modi sw modi ! ekvivax !! cyklix cyklix cyklix * materium ** !unu n modi reprizix e modi ! ekvivax !! s modi repnizix !unu u modi ! ekvivax !! w modi reprizix < 
 
-BALL:
-!!!!!!!!!!!! ekvivax ! !! ekvivax ! !unu
-luft !kvin intervax ! ekvivax !!
-!!!!!!!! ekvivax ! !!!!!!!! multiplux !!!!!!!! d
-modi sw modi !!! ekvivax ! !!!!
-ekvivax ! !!!!! ekvivax ! !
-multiplux du ! plux unu !!
-ekvivax ! cyklix !!!!!!!!!!unu cyklix
+BALL: !!!!!!!!!!!! ekvivax ! !! ekvivax ! !unu luft !kvin intervax ! ekvivax !! !!!!!!!! ekvivax ! !!!!!!!! multiplux !!!!!!!! d modi sw modi !!! ekvivax ! !!!! ekvivax ! !!!!! ekvivax ! ! multiplux du ! plux unu !! ekvivax ! cyklix !!!!!!!!!!unu cyklix 
 
-!!!!!!!!!unu cyklix !!!!!! ekvivax !!! !!!!!!
-multiplux !!!!!! !!!!!!! ekvivax !!!! !!!!!!!
-multiplux !!!!!!! !!!!!! plux !!!!!!! !!!!!!!
-ekvivax !!!!! !!!!!!! multiplux !!!!!!! !!!!!!
-plux !!!!!!! !!!!!! prevalix !!!!!!!! *
-materium ** . !unu n modi !!!
+!!!!!!!!!unu cyklix !!!!!! ekvivax !!! !!!!!! multiplux !!!!!! !!!!!!! ekvivax !!!! !!!!!!! multiplux !!!!!!! !!!!!! plux !!!!!!! !!!!!!! ekvivax !!!!! !!!!!!! multiplux !!!!!!! !!!!!! plux !!!!!!! !!!!!! prevalix !!!!!!!! * materium ** . !unu n modi !!! 
 
-prevalix nulo !!!!!!!!!nulo . . . !!!!!!!!!
-identix unu !!! plux unu
-ignorix !!! minux unu . .
-reprizix !!! ekvivax !!!!!!!!!!!! !unu e
-modi ! ekvivax !! s modi !!!!
-prevalix nulo !!!!!!!!!!nulo . . . !!!!!!!!!!
-identix unu !!!! plux unu
-ignorix !!!!
+prevalix nulo !!!!!!!!!nulo . . . !!!!!!!!! identix unu !!! plux unu ignorix !!! minux unu . . reprizix !!! ekvivax !!!!!!!!!!!! !unu e modi ! ekvivax !! s modi !!!! prevalix nulo !!!!!!!!!!nulo . . . !!!!!!!!!! identix unu !!!! plux unu ignorix !!!! 
 
-minux unu . . reprizix !!!!
-ekvivax !!!!!!!!!!!! !unu u modi !
-ekvivax !! w modi !!!!! prevalix
-nulo !!!!!!!!!!!nulo . . . !!!!!!!!!!! identix
-unu !!!!! plux unu ignorix !!!!!
-minux unu . . reprizix <
+minux unu . . reprizix !!!! ekvivax !!!!!!!!!!!! !unu u modi ! ekvivax !! w modi !!!!! prevalix nulo !!!!!!!!!!!nulo . . . !!!!!!!!!!! identix unu !!!!! plux unu ignorix !!!!! minux unu . . reprizix < 
 
-PYRAMID:
-!! ekvivax ! !unu luft ! ekvivax
-!! ! minux unu ! fraktix du
-sw modi ! ekvivax !!
-cyklix cyklix cyklix *
-materium ** !unu n modi
-reprizix e modi ! ekvivax !! s
-modi reprizix w modi !unu u
-modi ne modi !! minux du !
-ekvivax !!
+PYRAMID: !! ekvivax ! !unu luft ! ekvivax !! ! minux unu ! fraktix du sw modi ! ekvivax !! cyklix cyklix cyklix * materium ** !unu n modi reprizix e modi ! ekvivax !! s modi reprizix w modi !unu u modi ne modi !! minux du ! ekvivax !! 
 
-reprizix <
+reprizix < 
 ```
 
 ***
